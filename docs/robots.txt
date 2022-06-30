@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://kreamyu.github.io/sitemap.xml
