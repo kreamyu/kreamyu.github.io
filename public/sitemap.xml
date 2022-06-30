@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://kreamyu.github.io/categories/</loc>
+    <loc>https://kreamyu.github.io/first-post/</loc>
+    <lastmod>2022-06-30T17:12:06+08:00</lastmod>
   </url><url>
     <loc>https://kreamyu.github.io/</loc>
+    <lastmod>2022-06-30T17:12:06+08:00</lastmod>
+  </url><url>
+    <loc>https://kreamyu.github.io/post/</loc>
+    <lastmod>2022-06-30T17:12:06+08:00</lastmod>
+  </url><url>
+    <loc>https://kreamyu.github.io/categories/</loc>
   </url><url>
     <loc>https://kreamyu.github.io/tags/</loc>
   </url>

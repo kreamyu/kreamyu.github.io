@@ -1,7 +1,6 @@
 ---
 title: "First Post"
 date: 2022-06-30T17:12:06+08:00
-draft: true
 ---
 
 #### 背景——挑战一[2]
