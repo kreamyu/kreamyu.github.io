@@ -10,7 +10,29 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 04 Jul 2022 17:44:54 +0800</lastBuildDate><atom:link href="https://kreamyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Jul 2022 11:58:48 +0800</lastBuildDate><atom:link href="https://kreamyu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>影评|《人生大事》：人生除死无大事</title>
+      <link>https://kreamyu.github.io/%E5%BD%B1%E8%AF%84%E4%BA%BA%E7%94%9F%E5%A4%A7%E4%BA%8B%E4%BA%BA%E7%94%9F%E9%99%A4%E6%AD%BB%E6%97%A0%E5%A4%A7%E4%BA%8B/</link>
+      <pubDate>Sun, 17 Jul 2022 11:58:48 +0800</pubDate>
+      
+      <guid>https://kreamyu.github.io/%E5%BD%B1%E8%AF%84%E4%BA%BA%E7%94%9F%E5%A4%A7%E4%BA%8B%E4%BA%BA%E7%94%9F%E9%99%A4%E6%AD%BB%E6%97%A0%E5%A4%A7%E4%BA%8B/</guid>
+      <description>上次和毒哥一起出去玩的时候看了这部《人生大事》，看完觉得非常感动，想写个影评记录一下自己的感悟，苦于一直没有时间，最近稍闲下来才开始动笔。</description>
+    </item>
+    
+    <item>
+      <title>EasyRL</title>
+      <link>https://kreamyu.github.io/easyrl/</link>
+      <pubDate>Thu, 07 Jul 2022 09:42:58 +0800</pubDate>
+      
+      <guid>https://kreamyu.github.io/easyrl/</guid>
+      <description>前言 学习蘑菇书(EasyRL)的笔记。
+第1章 强化学习基础 强化学习输入的样本是序列数据
+在强化学习的训练过程中，时间非常重要。因为我们得到的是有时间关联的数据（sequential data）， 而不是独立同分布的数据。
+Q: 基于策略和基于价值的强化学习方法有什么区别?
+A: 对于一个状态转移概率已知的马尔可夫决策过程，我们可以使用动态规划算法来求解。从决策方式来看，强化学习又可以划分为基于策略的方法和基于价值的方法。决策方式是智能体在给定状态下从动作集合中选择一个动作的依据，它是静态的，不随状态变化而变化。 在基于策略的强化学习方法中，智能体会制定一套动作策略（确定在给定状态下需要采取何种动作），并根据这个策略进行操作。强化学习算法直接对策略进行优化，使制定的策略能够获得最大的奖励。 而在基于价值的强化学习方法中，智能体不需要制定显式的策略，它维护一个价值表格或价值函数，并通过这个价值表格或价值函数来选取价值最大的动作。基于价值迭代的方法只能应用在不连续的、离散的环境下（如围棋或某些游戏领域），对于动作集合规模庞大、动作连续的场景（如机器人控制领域），其很难学习到较好的结果（此时基于策略迭代的方法能够根据设定的策略来选择连续的动作）。 基于价值的强化学习算法有Q学习（Q-learning）、 Sarsa 等，而基于策略的强化学习算法有策略梯度（Policy Gradient，PG）算法等。此外，演员-评论员算法同时使用策略和价值评估来做出决策。其中，智能体会根据策略做出动作，而价值函数会对做出的动作给出价值，这样可以在原有的策略梯度算法的基础上加速学习过程，取得更好的效果。</description>
+    </item>
+    
     <item>
       <title>Apps Recommendation</title>
       <link>https://kreamyu.github.io/apps-recommendation/</link>
@@ -18,6 +40,29 @@
       
       <guid>https://kreamyu.github.io/apps-recommendation/</guid>
       <description>软件推荐 landrop：手机(Android)与电脑(Windows)之间无线传输大量文件，使用局域网，方便 </description>
+    </item>
+    
+    <item>
+      <title>深度强化学习 李宏毅</title>
+      <link>https://kreamyu.github.io/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0-%E6%9D%8E%E5%AE%8F%E6%AF%85/</link>
+      <pubDate>Sun, 03 Jul 2022 10:13:53 +0800</pubDate>
+      
+      <guid>https://kreamyu.github.io/%E6%B7%B1%E5%BA%A6%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0-%E6%9D%8E%E5%AE%8F%E6%AF%85/</guid>
+      <description>MRL Lesson Supervised：Learning from teacher Reinforcement Learning：Learning from experience Alpha Go is supervied learning + reinforcement learning.
+使用强化学习训练对话机器人：
+分别用supervised训练两个agent 让这两个agent进行对话 当它们聊得像人时给与奖励 游戏里面不是本来就有AI吗？为什么还需要用强化学习训练一个AI？
+不一样的，强化学习的AI是像人一样训练的，而不是在游戏接口获取信息
+episode：以游戏为例，一局游戏的开始到结束称为一个episode
+Learn to maximize the expected cumulative reward per episode.
+Difficulties of Reinforcement Learning:
+Reward delay
+Agent&amp;rsquo;s actions affect the subsequent data it receives
+Policy-based：Learning an Actor
+Value-based：Learning a Critic
+Asynchronous Advantage Actor-Critic（A3C）
+Alpha Go：policy-based + value-based + model-based（用于预测未来会发生的动作，围棋中有，游戏中很少）
+To learn deep reinforcement：
+Text book: Reinforcement Learning:An Introduction Lectures of David Silver Lectures of John Schulman Policy-based：Learning an Actor !</description>
     </item>
     
     <item>
